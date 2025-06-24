@@ -101,8 +101,16 @@ const Portfolio = () => {
         <div className="text-center z-10 px-4">
           <div className="mb-8 relative">
             <div className="w-40 h-40 mx-auto rounded-full bg-gradient-to-r from-purple-400 to-pink-400 p-1">
-              <div className="w-full h-full rounded-full bg-slate-900 flex items-center justify-center">
-                <span className="text-6xl font-bold text-white"> PY </span>
+              <div className="w-full h-full rounded-full bg-slate-700 flex items-center justify-center">
+               
+  <Image
+      src="/ict img.jpg"
+      alt="Profile pic"
+      width={128} // ✅ Required
+      height={128} // ✅ Required
+      className="rounded-full h-32 w-32 object-cover" // Optional Tailwind styles
+      sizes="128px"
+    />
               </div>
             </div>
           </div>
@@ -118,7 +126,7 @@ const Portfolio = () => {
             <button onClick={() => scrollToSection("projects")} className="px-8 py-3 bg-gradient-to-r from-purple-600 to-pink-600 text-white rounded-full hover:from-purple-700 hover:to-pink-700 transition-all duration-300 transform hover:scale-105">
               View My Work
             </button>
-            <button onClick={() => scrollToSection("contact")} className="px-8 py-3 border-2 border-purple-400 text-purple-400 rounded-full hover:bg-purple-400 hover:text-white transition-all duration-300">
+            <button onClick={() => scrollToSection("contact")} className="px-8 py-3 border-2 border-purple-900 text-yellow-300 rounded-full hover:bg-purple-400 hover:text-white transition-all duration-300">
               Get In Touch
             </button>
           </div>
@@ -145,19 +153,19 @@ const Portfolio = () => {
               <div className="flex flex-wrap gap-4 mt-8">
                 <div className="flex items-center gap-2">
                   <Github className="text-purple-400" size={20} />
-                  <a href="https://github.com/khandu990" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-purple-400 transition-colors">
+                  <a href="https://github.com/ydpema327" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-purple-400 transition-colors">
                     GitHub
                   </a>
                 </div>
                 <div className="flex items-center gap-2">
                   <Linkedin className="text-purple-400" size={20} />
-                  <a href="https://www.linkedin.com/in/khandu-zangmo" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-purple-400 transition-colors">
+                  <a href="https://www.linkedin.com/in/pema-yuden" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-purple-400 transition-colors">
                     LinkedIn
                   </a>
                 </div>
                 <div className="flex items-center gap-2">
                   <Mail className="text-purple-400" size={20} />
-                  <a href="mailto:khanduz880@gmail.com" className="text-gray-300 hover:text-purple-400 transition-colors">
+                  <a href="mailto:ydpema327@gmail.com" className="text-gray-300 hover:text-purple-400 transition-colors">
                     Email
                   </a>
                 </div>
@@ -236,20 +244,20 @@ const Portfolio = () => {
             <div className="p-6 bg-white/5 backdrop-blur-sm rounded-xl border border-white/10">
               <Mail className="mx-auto mb-4 text-purple-400" size={32} />
               <h3 className="text-lg font-semibold text-white mb-2">Email</h3>
-              <p className="text-gray-300">khanduz880@gmail.com</p>
+              <p className="text-gray-300">ydpema327@gmail.com</p>
             </div>
             <div className="p-6 bg-white/5 backdrop-blur-sm rounded-xl border border-white/10">
               <Github className="mx-auto mb-4 text-purple-400" size={32} />
               <h3 className="text-lg font-semibold text-white mb-2">GitHub</h3>
-              <p className="text-gray-300">khandu990</p>
+              <p className="text-gray-300"> ydpema327 </p>
             </div>
             <div className="p-6 bg-white/5 backdrop-blur-sm rounded-xl border border-white/10">
               <Linkedin className="mx-auto mb-4 text-purple-400" size={32} />
               <h3 className="text-lg font-semibold text-white mb-2">LinkedIn</h3>
-              <p className="text-gray-300">Khandu Zangmo</p>
+              <p className="text-gray-300">Pema Yuden </p>
             </div>
           </div>
-          <button className="px-8 py-4 bg-gradient-to-r from-purple-600 to-pink-600 text-white text-lg rounded-full hover:from-purple-700 hover:to-pink-700 transition-all duration-300 transform hover:scale-105">
+          <button className="px-8 py-4 bg-gradient-to-r from-purple-500 to-pink-500 text-white text-lg rounded-full hover:from-purple-700 hover:to-pink-700 transition-all duration-300 transform hover:scale-105">
             Start a Conversation
           </button>
         </div>
@@ -257,8 +265,8 @@ const Portfolio = () => {
 
       <footer className="py-8 px-4 border-t border-white/10">
         <div className="max-w-7xl mx-auto text-center">
-          <p className="text-gray-400">
-            © 2025 Khandu Zangmo. Built with Next.js and Tailwind CSS.
+          <p className="text-gray-300">
+            © 2025 Pema Yuden. Built with Next.js and Tailwind CSS.
           </p>
         </div>
       </footer>
